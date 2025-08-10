@@ -1,11 +1,6 @@
-#ifndef HEAP_CPP
-#define HEAP_CPP
-
 #include "heap.h"
 
-namespace Heap
-{
-
+namespace Bits{
   template <typename T>
   MaxHeap<T>::MaxHeap()
   {
@@ -20,7 +15,7 @@ namespace Heap
     n++;
   }
   template <typename T>
-  void Heap::MaxHeap<T>::print() const
+  void Bits::MaxHeap<T>::print() const
   {
     std::priority_queue<T> copy = heap;
     std::vector<T> elements;
@@ -93,4 +88,3 @@ namespace Heap
   }
 
 }
-#endif

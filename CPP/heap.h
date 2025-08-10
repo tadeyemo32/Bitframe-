@@ -1,13 +1,11 @@
-#ifndef HEAP_H
-#define HEAP_H
+#ifndef BITFRAME_CPP_HEAP_H
+#define BITFRAME_CPP_HEAP_H
 
 #include <iostream>
 #include <optional>
 #include <queue>
 
-namespace Heap
-{
-
+namespace Bits{
   template <typename T>
   class MaxHeap
   {
@@ -28,6 +26,5 @@ namespace Heap
 
 }
 
-#include "heap.cpp"
 
 #endif
